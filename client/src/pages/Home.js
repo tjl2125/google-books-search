@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Container } from "../components/Grid/Grid";
-import Nav from "../components/Nav/Nav";
-import Jumbotron from "../components/Jumbotron/Jumbotron";
+import { Container } from "../components/Grid/index";
+import Nav from "../components/Nav/index";
+import Jumbotron from "../components/Jumbotron/index";
 import {Input, SubmitBtn} from "../components/Search/Search";
 import API from "../utils/API";
 import SearchList from "../components/SearchList/SearchList";
