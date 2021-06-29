@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SearchList from "../SearchListItem/SearchListItem";
+import SearchListItem from "../SearchListItem/SearchListItem";
 
 class SearchList extends Component {
 
@@ -7,7 +7,7 @@ class SearchList extends Component {
         console.log("Props", this.props.bookState)
         return (
             this.props.bookState.map((book) => (
-            <SearchList 
+            <SearchListItem 
             key={book.id}
             id={book.id}
             title={book.volumeInfo.title}
